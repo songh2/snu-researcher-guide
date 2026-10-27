@@ -55,8 +55,11 @@ window.GUIDE_DATA = {
       },
       "files": [
         "appointment",
+        "appointment-ko-ribs",
+        "appointment-ko-natsci",
         "appointment-guide",
         "names",
+        "names-ko",
         "guide-en",
         "guide-ko"
       ],
@@ -122,7 +125,8 @@ window.GUIDE_DATA = {
         "power",
         "business",
         "visa-manual",
-        "names"
+        "names",
+        "names-ko"
       ],
       "links": [
         {
@@ -189,6 +193,7 @@ window.GUIDE_DATA = {
       },
       "files": [
         "housing",
+        "housing-ko",
         "guide-en",
         "guide-ko"
       ],
@@ -305,7 +310,8 @@ window.GUIDE_DATA = {
       "files": [
         "business",
         "stay-manual",
-        "names"
+        "names",
+        "names-ko"
       ],
       "links": [
         {
@@ -377,6 +383,7 @@ window.GUIDE_DATA = {
       },
       "files": [
         "names",
+        "names-ko",
         "guide-en"
       ],
       "links": [
@@ -626,7 +633,9 @@ window.GUIDE_DATA = {
       },
       "files": [
         "iris",
-        "names"
+        "iris-ko",
+        "names",
+        "names-ko"
       ],
       "links": [
         {
@@ -754,6 +763,8 @@ window.GUIDE_DATA = {
       },
       "files": [
         "resignation",
+        "resignation-ko-ribs",
+        "resignation-ko-natsci",
         "departure"
       ],
       "links": []
@@ -800,6 +811,34 @@ window.GUIDE_DATA = {
       "note": {
         "en": "Employment recommendation and related forms. Confirm the forms required for your position.",
         "ko": "연구원 임용추천 및 관련 서식 · 직급별 제출서류 확인 필요."
+      }
+    },
+    {
+      "id": "appointment-ko-ribs",
+      "file": "appointment-form-ko-ribs-2025.hwp",
+      "title": {
+        "en": "Researcher appointment forms · Korean (Research Institute of Basic Sciences)",
+        "ko": "연구원 임용 신청 서류 · 국문 (기초과학연구원)"
+      },
+      "category": "appointment",
+      "format": "HWP",
+      "note": {
+        "en": "2025 version for appointments at the SNU Research Institute of Basic Sciences. Includes the document checklist and Forms 1–5. Requires an HWP-compatible editor or viewer.",
+        "ko": "2025년 서식 · 서울대학교 기초과학연구원 임용용. 제출서류 목록과 서식 1~5 포함 · HWP 호환 편집기 또는 뷰어 필요."
+      }
+    },
+    {
+      "id": "appointment-ko-natsci",
+      "file": "appointment-form-ko-natsci-2025.hwp",
+      "title": {
+        "en": "Researcher appointment forms · Korean (College of Natural Sciences)",
+        "ko": "연구원 임용 신청 서류 · 국문 (자연과학대학)"
+      },
+      "category": "appointment",
+      "format": "HWP",
+      "note": {
+        "en": "2025 version for appointments at the SNU College of Natural Sciences. Includes the document checklist and Forms 1–5. Requires an HWP-compatible editor or viewer.",
+        "ko": "2025년 서식 · 서울대학교 자연과학대학 임용용. 제출서류 목록과 서식 1~5 포함 · HWP 호환 편집기 또는 뷰어 필요."
       }
     },
     {
@@ -873,6 +912,20 @@ window.GUIDE_DATA = {
       }
     },
     {
+      "id": "names-ko",
+      "file": "passport-name-guidelines-ko.pdf",
+      "title": {
+        "en": "Passport-based English name guide · Korean",
+        "ko": "여권 기준 영문 성명 입력 안내 · 국문"
+      },
+      "category": "appointment",
+      "format": "PDF",
+      "note": {
+        "en": "Korean version of the English-name guide.",
+        "ko": "영문성명 표기 방법 가이드라인 국문판."
+      }
+    },
+    {
       "id": "housing",
       "file": "bk-residence-2024.pdf",
       "title": {
@@ -884,6 +937,20 @@ window.GUIDE_DATA = {
       "note": {
         "en": "For 2024 applicants. Fees, eligibility and required documents may have changed.",
         "ko": "2024년 신청자용 · 비용·자격·제출서류는 최신 공고를 확인하세요."
+      }
+    },
+    {
+      "id": "housing-ko",
+      "file": "bk-residence-2024-ko.pdf",
+      "title": {
+        "en": "BK Residence Halls · 2024 reference · Korean",
+        "ko": "BK생활관 입주안내 · 2024 참고자료 · 국문"
+      },
+      "category": "life",
+      "format": "PDF",
+      "note": {
+        "en": "Korean announcement for 2024 applicants (1 March 2024). Fees, eligibility and required documents may have changed.",
+        "ko": "2024년 입주희망자 대상 국문 공고(2024.03.01.) · 비용·자격·제출서류는 최신 공고를 확인하세요."
       }
     },
     {
@@ -929,6 +996,20 @@ window.GUIDE_DATA = {
       }
     },
     {
+      "id": "iris-ko",
+      "file": "iris-registration-ko.pdf",
+      "title": {
+        "en": "IRIS registration & NRI conversion · Korean",
+        "ko": "IRIS 가입·NRI 연구자 전환 매뉴얼 · 국문"
+      },
+      "category": "appointment",
+      "format": "PDF",
+      "note": {
+        "en": "Korean manual including researcher-number issuance. Screens may differ from the current service.",
+        "ko": "국문 매뉴얼 · 국가연구자번호 발급 절차 포함 · 실제 서비스 화면은 변경될 수 있습니다."
+      }
+    },
+    {
       "id": "resignation",
       "file": "resignation.docx",
       "title": {
@@ -940,6 +1021,34 @@ window.GUIDE_DATA = {
       "note": {
         "en": "For voluntary resignation. Replace the printed signing year “2023” with the actual year.",
         "ko": "자진퇴사 시 사용 · 서명란의 “2023”을 실제 서명연도로 수정하세요."
+      }
+    },
+    {
+      "id": "resignation-ko-ribs",
+      "file": "resignation-ko-ribs.hwp",
+      "title": {
+        "en": "Letter of Resignation · Korean (Research Institute of Basic Sciences)",
+        "ko": "사직원 · 국문 (기초과학연구원장 앞)"
+      },
+      "category": "departure",
+      "format": "HWP",
+      "note": {
+        "en": "Korean form addressed to the Director of the Research Institute of Basic Sciences. Requires an HWP-compatible editor or viewer.",
+        "ko": "기관장: 서울대학교 기초과학연구원장 · 면직요청일은 업무종료일 다음 날로 기재 · HWP 호환 편집기 또는 뷰어 필요."
+      }
+    },
+    {
+      "id": "resignation-ko-natsci",
+      "file": "resignation-ko-natsci.hwp",
+      "title": {
+        "en": "Letter of Resignation · Korean (College of Natural Sciences)",
+        "ko": "사직원 · 국문 (자연과학대학장 앞)"
+      },
+      "category": "departure",
+      "format": "HWP",
+      "note": {
+        "en": "Korean form addressed to the Dean of the College of Natural Sciences. Requires an HWP-compatible editor or viewer.",
+        "ko": "기관장: 서울대학교 자연과학대학장 · 면직요청일은 업무종료일 다음 날로 기재 · HWP 호환 편집기 또는 뷰어 필요."
       }
     },
     {

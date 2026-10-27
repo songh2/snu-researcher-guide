@@ -18,7 +18,7 @@ vm.runInContext(script,context);
 const api=context.__qa, data=context.GUIDE_DATA;
 let assertions=0;
 const check=(b,msg)=>{assert(b,msg);assertions++};
-check(data.tasks.length===12,'12 tasks');check(data.resources.length===14,'14 resources');
+check(data.tasks.length===12,'12 tasks');check(data.resources.length===21,'21 resources');
 const html=[];
 for(const lang of ['en','ko']) {
  api.set({lang});
@@ -47,11 +47,11 @@ api.toggleTask('residence-copy');
 check(api.get().completed.includes('residence-copy'),'toggle completion');
 check(JSON.parse(storage['snu-welcome-checklist-v1']).completed.includes('residence-copy'),'completion persisted');
 api.toggleTask('residence-copy');check(!api.get().completed.includes('residence-copy'),'undo completion');
-api.set({page:'forms',resourceFilter:'departure',search:''});api.render();check((api.filteredResources().match(/<article /g)||[]).length===2,'departure forms filter');
-api.set({resourceFilter:'all'});api.render();check((api.filteredResources().match(/<article /g)||[]).length===14,'all forms filter');
+api.set({page:'forms',resourceFilter:'departure',search:''});api.render();check((api.filteredResources().match(/<article /g)||[]).length===4,'departure forms filter');
+api.set({resourceFilter:'all'});api.render();check((api.filteredResources().match(/<article /g)||[]).length===21,'all forms filter');
 api.printChecklist();check((getNode('#print-sheet').innerHTML.match(/class="print-task"/g)||[]).length===12,'all tasks in print sheet');
 for(const r of data.resources){check(fs.existsSync(path.join(root,'docs/files',r.file)),'file exists '+r.file);check(fs.statSync(path.join(root,'docs/files',r.file)).size>0,'file nonempty');for(const l of ['en','ko'])check(r.title[l]&&r.note[l],'resource localization');}
 for(const out of html){for(const m of out.matchAll(/href="files\/([^"#]+)(?:#[^"]*)?"/g))check(fs.existsSync(path.join(root,'docs/files',m[1])),'rendered download exists '+m[1]);}
 check(!/type=["'](?:file|password)["']/.test(script),'no sensitive upload fields');
 check(!/fetch\(|XMLHttpRequest|sendBeacon/.test(script),'no data transmission');
-console.log(JSON.stringify({result:'passed',assertions,locales:2,tasks:12,resources:14,scope:'Content, rendering, file links, state and storage logic. No browser or visual-layout validation.'},null,2));
+console.log(JSON.stringify({result:'passed',assertions,locales:2,tasks:12,resources:21,scope:'Content, rendering, file links, state and storage logic. No browser or visual-layout validation.'},null,2));
