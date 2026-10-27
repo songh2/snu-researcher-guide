@@ -12,8 +12,8 @@ window.GUIDE_DATA = {
         "ko": "소속 연구실과 임용서류를 준비하고 여권 기준 영문 성명을 확인하세요."
       },
       "timing": {
-        "en": "Before the appointment; the guide recommends submitting 1–2 months in advance.",
-        "ko": "임용 전 · 안내서는 희망 임용일 1~2개월 전 제출을 권장합니다."
+        "en": "Submit at least 2 months before your intended appointment date.",
+        "ko": "희망 임용일 최소 2개월 전까지 제출해야 합니다."
       },
       "owner": {
         "en": "You, your host lab and the appointment administrator",
@@ -24,13 +24,13 @@ window.GUIDE_DATA = {
           "Ask your host lab to confirm your researcher position, expected appointment date and required documents.",
           "Appointment forms differ by appointing institution (for example, the Research Institute of Basic Sciences or the College of Natural Sciences). Before filling anything in, confirm with the appointment administrator which form applies to you. Then download that form and the completion instructions, and prepare the forms, your CV, degree certificate and passport copy.",
           "Use the English name order shown in your passport’s machine-readable zone (MRZ): family name, given name and middle name(s). Keep the spelling consistent across every system.",
-          "Send the documents through the submission route designated by your lab or appointment administrator. Additional documents depend on your position."
+          "Submit the documents at least 2 months before your intended appointment date, through the submission route designated by your lab or appointment administrator. Additional documents depend on your position."
         ],
         "ko": [
           "소속 연구실을 통해 임용 직급, 임용예정일과 제출서류를 확인합니다.",
           "임용서식은 소속 기관(예: 기초과학연구원, 자연과학대학)마다 다릅니다. 작성하기 전에 임용담당자에게 어떤 서식을 사용할지 확인받은 후, 해당 서식과 작성요령을 내려받아 관련 서식, 이력서, 최종학위증명서와 여권 사본을 준비합니다.",
           "여권 하단 기계판독영역(MRZ)의 성·이름·중간이름 순서와 영문 표기를 확인하고 모든 서류와 시스템에 일관되게 입력합니다.",
-          "연구실 또는 임용담당자가 지정한 경로로 제출합니다. 직급에 따라 추가서류가 필요할 수 있습니다."
+          "희망 임용일 최소 2개월 전까지 연구실 또는 임용담당자가 지정한 경로로 제출합니다. 직급에 따라 추가서류가 필요할 수 있습니다."
         ]
       },
       "documents": {
