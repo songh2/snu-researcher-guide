@@ -22,13 +22,13 @@ window.GUIDE_DATA = {
       "steps": {
         "en": [
           "Ask your host lab to confirm your researcher position, expected appointment date and required documents.",
-          "Download the appointment form and completion instructions. Prepare the forms, your CV, degree certificate and passport copy.",
+          "Appointment forms differ by appointing institution (for example, the Research Institute of Basic Sciences or the College of Natural Sciences). Before filling anything in, confirm with the appointment administrator which form applies to you. Then download that form and the completion instructions, and prepare the forms, your CV, degree certificate and passport copy.",
           "Use the English name order shown in your passport’s machine-readable zone (MRZ): family name, given name and middle name(s). Keep the spelling consistent across every system.",
           "Send the documents through the submission route designated by your lab or appointment administrator. Additional documents depend on your position."
         ],
         "ko": [
           "소속 연구실을 통해 임용 직급, 임용예정일과 제출서류를 확인합니다.",
-          "임용서식과 작성요령을 내려받아 관련 서식, 이력서, 최종학위증명서와 여권 사본을 준비합니다.",
+          "임용서식은 소속 기관(예: 기초과학연구원, 자연과학대학)마다 다릅니다. 작성하기 전에 임용담당자에게 어떤 서식을 사용할지 확인받은 후, 해당 서식과 작성요령을 내려받아 관련 서식, 이력서, 최종학위증명서와 여권 사본을 준비합니다.",
           "여권 하단 기계판독영역(MRZ)의 성·이름·중간이름 순서와 영문 표기를 확인하고 모든 서류와 시스템에 일관되게 입력합니다.",
           "연구실 또는 임용담당자가 지정한 경로로 제출합니다. 직급에 따라 추가서류가 필요할 수 있습니다."
         ]
@@ -46,8 +46,8 @@ window.GUIDE_DATA = {
         ]
       },
       "note": {
-        "en": "Eligibility and required forms vary by researcher position. Confirm your appointment category with the administrator. Do not enter passport or registration numbers on this website.",
-        "ko": "직급별 임용요건과 서류가 다르므로 임용담당자에게 확인하세요. 이 사이트에는 여권번호나 외국인등록번호를 입력하지 않습니다."
+        "en": "Use the form for your appointing institution and confirm it with the appointment administrator before you proceed. Eligibility and required documents also vary by researcher position. Do not enter passport or registration numbers on this website.",
+        "ko": "소속 기관에 맞는 서식을 사용해야 하므로, 진행 전 반드시 임용담당자에게 확인받으세요. 직급별로도 임용요건과 제출서류가 다를 수 있습니다. 이 사이트에는 여권번호나 외국인등록번호를 입력하지 않습니다."
       },
       "source": {
         "en": "English settlement guide, p. 3; appointment forms and completion instructions.",
@@ -809,8 +809,8 @@ window.GUIDE_DATA = {
       "category": "appointment",
       "format": "DOCX",
       "note": {
-        "en": "Employment recommendation and related forms. Confirm the forms required for your position.",
-        "ko": "연구원 임용추천 및 관련 서식 · 직급별 제출서류 확인 필요."
+        "en": "Employment recommendation and related forms. Confirm the forms required for your position. Use the form for your appointing institution; confirm with the appointment administrator before proceeding.",
+        "ko": "연구원 임용추천 및 관련 서식 · 직급별 제출서류 확인 필요 · 소속 기관에 맞는 서식 사용 · 진행 전 임용담당자 확인 필수."
       }
     },
     {
@@ -823,8 +823,8 @@ window.GUIDE_DATA = {
       "category": "appointment",
       "format": "HWP",
       "note": {
-        "en": "2025 version for appointments at the SNU Research Institute of Basic Sciences. Includes the document checklist and Forms 1–5. Requires an HWP-compatible editor or viewer.",
-        "ko": "2025년 서식 · 서울대학교 기초과학연구원 임용용. 제출서류 목록과 서식 1~5 포함 · HWP 호환 편집기 또는 뷰어 필요."
+        "en": "2025 version for appointments at the SNU Research Institute of Basic Sciences. Includes the document checklist and Forms 1–5. Requires an HWP-compatible editor or viewer. Use the form for your appointing institution; confirm with the appointment administrator before proceeding.",
+        "ko": "2025년 서식 · 서울대학교 기초과학연구원 임용용. 제출서류 목록과 서식 1~5 포함 · HWP 호환 편집기 또는 뷰어 필요 · 소속 기관에 맞는 서식 사용 · 진행 전 임용담당자 확인 필수."
       }
     },
     {
@@ -837,8 +837,8 @@ window.GUIDE_DATA = {
       "category": "appointment",
       "format": "HWP",
       "note": {
-        "en": "2025 version for appointments at the SNU College of Natural Sciences. Includes the document checklist and Forms 1–5. Requires an HWP-compatible editor or viewer.",
-        "ko": "2025년 서식 · 서울대학교 자연과학대학 임용용. 제출서류 목록과 서식 1~5 포함 · HWP 호환 편집기 또는 뷰어 필요."
+        "en": "2025 version for appointments at the SNU College of Natural Sciences. Includes the document checklist and Forms 1–5. Requires an HWP-compatible editor or viewer. Use the form for your appointing institution; confirm with the appointment administrator before proceeding.",
+        "ko": "2025년 서식 · 서울대학교 자연과학대학 임용용. 제출서류 목록과 서식 1~5 포함 · HWP 호환 편집기 또는 뷰어 필요 · 소속 기관에 맞는 서식 사용 · 진행 전 임용담당자 확인 필수."
       }
     },
     {
