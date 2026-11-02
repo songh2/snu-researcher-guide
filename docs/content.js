@@ -1135,7 +1135,11 @@ window.GUIDE_DATA = {
             "ko": "웹사이트"
           }
         }
-      ]
+      ],
+      "summary": {
+        "en": "119 · 112 · 109 · Campus police 02-880-8112",
+        "ko": "119 · 112 · 109 · 캠퍼스 경찰 02-880-8112"
+      }
     },
     {
       "id": "health",
@@ -1197,7 +1201,11 @@ window.GUIDE_DATA = {
             "ko": "여권 또는 외국인등록증을 지참하세요. 진료비는 보통 진료 직후 결제하며, 사보험 청구용 영수증을 요청할 수 있습니다."
           }
         }
-      ]
+      ],
+      "summary": {
+        "en": "Health Service Center (Bldg. 63) · Public health center · Insurance",
+        "ko": "보건진료소(63동) · 관악구 보건소 · 건강보험"
+      }
     },
     {
       "id": "hospitals",
@@ -1265,7 +1273,11 @@ window.GUIDE_DATA = {
           },
           "tel": "02-880-0119"
         }
-      ]
+      ],
+      "summary": {
+        "en": "SNU Hospital (English desk) · Boramae · 24-hour ERs",
+        "ko": "서울대병원 국제진료센터 · 보라매병원 · 24시간 응급실"
+      }
     },
     {
       "id": "dining",
@@ -1357,7 +1369,11 @@ window.GUIDE_DATA = {
             "ko": "가이드북: 단과대별 보기"
           }
         }
-      ]
+      ],
+      "summary": {
+        "en": "Today's menus · Student Union · Jahayeon · Natural Sciences",
+        "ko": "오늘의 식단 · 학생회관 · 자하연 · 자연대 식당"
+      }
     },
     {
       "id": "shuttle",
@@ -1427,7 +1443,11 @@ window.GUIDE_DATA = {
             "ko": "행정관 주차장에서 녹두·서울대입구역 방면 21:10, 21:40, 22:10, 22:40, 23:10. 심야 셔틀(서울대입구역) 24:00–02:00, 30분 간격(학기 중)."
           }
         }
-      ]
+      ],
+      "summary": {
+        "en": "Campus loop · SNU Station · Nakseongdae · Night buses",
+        "ko": "교내 순환 · 서울대입구역 · 낙성대 · 야간 셔틀"
+      }
     },
     {
       "id": "transport",
@@ -1482,7 +1502,11 @@ window.GUIDE_DATA = {
             "ko": "5511, 5513, 5516, 관악02. 버스 앞의 방향 표지를 확인하세요."
           }
         }
-      ]
+      ],
+      "summary": {
+        "en": "Campus map · Subway · Buses",
+        "ko": "캠퍼스 지도 · 지하철 · 버스"
+      }
     },
     {
       "id": "sports",
@@ -1539,7 +1563,11 @@ window.GUIDE_DATA = {
             "ko": "시설 목록"
           }
         }
-      ]
+      ],
+      "summary": {
+        "en": "POSCO Sports Center · Natural Sciences fitness room",
+        "ko": "포스코스포츠센터 · 자연대 체련장"
+      }
     },
     {
       "id": "living",
@@ -1604,7 +1632,11 @@ window.GUIDE_DATA = {
             "ko": "웹사이트"
           }
         }
-      ]
+      ],
+      "summary": {
+        "en": "Off-campus housing · Bank account",
+        "ko": "학교 밖 주거 · 은행 계좌"
+      }
     },
     {
       "id": "learning",
@@ -1674,7 +1706,11 @@ window.GUIDE_DATA = {
             "ko": "웹사이트"
           }
         }
-      ]
+      ],
+      "summary": {
+        "en": "Korean courses · King Sejong · Library",
+        "ko": "언어교육원 · 세종학당 · 도서관"
+      }
     }
   ]
 };
