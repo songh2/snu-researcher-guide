@@ -1065,5 +1065,355 @@ window.GUIDE_DATA = {
         "ko": "담당자 안내에 따라 작성 · HWP 호환 편집기 또는 뷰어 필요."
       }
     }
+  ],
+  "life": [
+    {
+      "id": "emergency",
+      "icon": "shield",
+      "title": {
+        "en": "Emergency & safety",
+        "ko": "응급·안전"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "Fire & ambulance",
+            "ko": "화재·구급"
+          },
+          "detail": {
+            "en": "Call for any medical emergency.",
+            "ko": "응급 상황에서는 먼저 전화하세요."
+          },
+          "tel": "119"
+        },
+        {
+          "label": {
+            "en": "Police",
+            "ko": "경찰"
+          },
+          "detail": {
+            "en": "",
+            "ko": ""
+          },
+          "tel": "112"
+        },
+        {
+          "label": {
+            "en": "SNU campus police",
+            "ko": "서울대 캠퍼스 경찰"
+          },
+          "detail": {
+            "en": "On-campus safety line.",
+            "ko": "캠퍼스 내 안전 문의."
+          },
+          "tel": "02-880-8112"
+        },
+        {
+          "label": {
+            "en": "Suicide prevention line",
+            "ko": "자살예방 상담전화"
+          },
+          "detail": {
+            "en": "National crisis line, unified to 109 in January 2024.",
+            "ko": "2024년 1월부터 109로 통합된 국가 상담전화입니다."
+          },
+          "tel": "109"
+        },
+        {
+          "label": {
+            "en": "SNU Counseling Center",
+            "ko": "서울대 대학생활문화원(상담)"
+          },
+          "detail": {
+            "en": "24-hour counselling line listed in the OGA Guidebook.",
+            "ko": "OGA 가이드북에 안내된 24시간 상담 번호입니다."
+          },
+          "url": "https://snucounsel.snu.ac.kr/en/main.do",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          },
+          "tel": "02-880-5501"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "icon": "help",
+      "title": {
+        "en": "Health & insurance",
+        "ko": "의료·건강보험"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "SNU Health Service Center",
+            "ko": "서울대 보건진료소"
+          },
+          "detail": {
+            "en": "Building 63, 3rd floor. Check eligibility, hours and reservations on the website.",
+            "ko": "63동 3층. 이용 대상·진료시간·예약은 홈페이지에서 확인하세요."
+          },
+          "url": "https://health4u.snu.ac.kr/en/index.do",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          },
+          "tel": "02-880-5338"
+        },
+        {
+          "label": {
+            "en": "H+ Yangji Hospital",
+            "ko": "에이치플러스 양지병원"
+          },
+          "detail": {
+            "en": "General hospital with a 24-hour emergency room. Foreigner call centre (English): 070-4665-9519.",
+            "ko": "24시간 응급실 운영 종합병원. 외국인 콜센터(영어) 070-4665-9519."
+          },
+          "url": "https://www.newyjh.com/main/index.htm",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "Seoul Sarang Hospital",
+            "ko": "사랑의병원"
+          },
+          "detail": {
+            "en": "Near Nakseongdae. Night and weekend emergency care.",
+            "ko": "낙성대 인근. 야간·주말 응급진료."
+          },
+          "tel": "02-880-0119"
+        },
+        {
+          "label": {
+            "en": "Gwanak-gu Public Health Center",
+            "ko": "관악구 보건소"
+          },
+          "detail": {
+            "en": "Vaccinations, basic check-ups and health counselling.",
+            "ko": "예방접종, 기본 건강검진, 건강상담."
+          },
+          "tel": "02-879-7131"
+        },
+        {
+          "label": {
+            "en": "National Health Insurance (NHIS)",
+            "ko": "국민건강보험공단"
+          },
+          "detail": {
+            "en": "How you are enrolled depends on your status (for example, as an employee). Confirm with the Research Administration Office.",
+            "ko": "가입 방식은 신분(예: 직장가입자)에 따라 다릅니다. 연구행정실에 확인하세요."
+          },
+          "url": "https://www.nhis.or.kr/english/wbheaa02100m01.do",
+          "linkLabel": {
+            "en": "NHIS for foreign residents",
+            "ko": "외국인 안내"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "icon": "pin",
+      "title": {
+        "en": "Getting around",
+        "ko": "교통"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "Map apps",
+            "ko": "지도 앱"
+          },
+          "detail": {
+            "en": "Kakao Map has the most English place names; Naver Map has strong GPS.",
+            "ko": "카카오맵은 영어 정보가 가장 많고, 네이버지도는 위치 정확도가 좋습니다."
+          }
+        },
+        {
+          "label": {
+            "en": "Subway",
+            "ko": "지하철"
+          },
+          "detail": {
+            "en": "Gwanaksan Station (Sillim Line) is closest to campus. From Line 2, use Seoul Nat'l Univ. or Nakseongdae Station and transfer to a bus or shuttle.",
+            "ko": "캠퍼스에서 가장 가까운 역은 신림선 관악산역입니다. 2호선 서울대입구역·낙성대역에서는 버스나 셔틀로 갈아타세요."
+          }
+        },
+        {
+          "label": {
+            "en": "Buses into campus",
+            "ko": "캠퍼스 버스"
+          },
+          "detail": {
+            "en": "5511, 5513, 5516 and Gwanak 02. Check the direction sign on the front of the bus.",
+            "ko": "5511, 5513, 5516, 관악02. 버스 앞의 방향 표지를 확인하세요."
+          }
+        }
+      ]
+    },
+    {
+      "id": "living",
+      "icon": "building",
+      "title": {
+        "en": "Housing & daily life",
+        "ko": "주거·생활"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "Off-campus housing",
+            "ko": "학교 밖 주거"
+          },
+          "detail": {
+            "en": "Listings from the SNU community and the Seoul Global Center.",
+            "ko": "서울대 커뮤니티와 서울글로벌센터 정보를 참고하세요."
+          },
+          "url": "http://global.seoul.go.kr",
+          "linkLabel": {
+            "en": "Seoul Global Center",
+            "ko": "서울글로벌센터"
+          }
+        },
+        {
+          "label": {
+            "en": "SNU Life community",
+            "ko": "스누라이프"
+          },
+          "detail": {
+            "en": "SNU community site with housing and sublet posts.",
+            "ko": "주거·양도 게시글이 있는 서울대 커뮤니티."
+          },
+          "url": "http://snulife.com/index.php?l=en",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "Bank account",
+            "ko": "은행 계좌"
+          },
+          "detail": {
+            "en": "Banks require the physical Residence Card; the Certificate of Foreign Resident Registration is not accepted.",
+            "ko": "계좌 개설에는 외국인등록증 실물이 필요하며, 외국인등록사실증명으로는 대체되지 않습니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "icon": "book",
+      "title": {
+        "en": "Korean & library",
+        "ko": "한국어·도서관"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "SNU Language Education Institute",
+            "ko": "서울대 언어교육원"
+          },
+          "detail": {
+            "en": "Building 137. Regular and evening Korean courses.",
+            "ko": "137동. 정규·야간 한국어 과정."
+          },
+          "url": "https://lei.snu.ac.kr/mobile/en/klec/main/main.jsp",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "King Sejong Institute (online)",
+            "ko": "세종학당재단(온라인)"
+          },
+          "detail": {
+            "en": "Free textbooks, self-study courses and a level test.",
+            "ko": "무료 교재·자율학습 과정·레벨 테스트."
+          },
+          "url": "https://www.iksi.or.kr/lms/main/main.do",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "KIIP (Korea Immigration & Integration Program)",
+            "ko": "사회통합프로그램(KIIP)"
+          },
+          "detail": {
+            "en": "Government programme for long-term residents.",
+            "ko": "장기 체류자를 위한 정부 프로그램."
+          },
+          "url": "http://socinet.go.kr/soci/main/main.jsp?MENU_TYPE=S_TOP_SY",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "SNU Library",
+            "ko": "서울대 중앙도서관"
+          },
+          "detail": {
+            "en": "Search, loans and seat reservations.",
+            "ko": "자료 검색, 대출, 좌석 예약."
+          },
+          "url": "https://snu-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=82SNU&lang=en_US",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "icon": "globe",
+      "title": {
+        "en": "More from SNU OGA",
+        "ko": "서울대 국제협력본부(OGA) 안내"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "SNU OGA Guidebook (2026-1)",
+            "ko": "SNU OGA 가이드북 (2026-1)"
+          },
+          "detail": {
+            "en": "Campus map, cafeterias, shuttle, hospitals and more. Written mainly for international students; check with each office for details.",
+            "ko": "캠퍼스 지도, 식당, 셔틀, 병원 등. 유학생 중심 자료이므로 세부 사항은 해당 기관에 확인하세요."
+          },
+          "url": "https://brassy-icicle-96e.notion.site/",
+          "linkLabel": {
+            "en": "Open guidebook",
+            "ko": "가이드북 열기"
+          }
+        },
+        {
+          "label": {
+            "en": "Living in Korea (OGA)",
+            "ko": "한국 생활 안내(OGA)"
+          },
+          "detail": {
+            "en": "",
+            "ko": ""
+          },
+          "url": "https://oia.snu.ac.kr/index.php/managing-budget",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        }
+      ]
+    }
   ]
 };
