@@ -1128,12 +1128,12 @@ window.GUIDE_DATA = {
             "en": "24-hour counselling line listed in the OGA Guidebook.",
             "ko": "OGA 가이드북에 안내된 24시간 상담 번호입니다."
           },
+          "tel": "02-880-5501",
           "url": "https://snucounsel.snu.ac.kr/en/main.do",
           "linkLabel": {
             "en": "Website",
             "ko": "웹사이트"
-          },
-          "tel": "02-880-5501"
+          }
         }
       ]
     },
@@ -1141,8 +1141,8 @@ window.GUIDE_DATA = {
       "id": "health",
       "icon": "help",
       "title": {
-        "en": "Health & insurance",
-        "ko": "의료·건강보험"
+        "en": "Campus health & insurance",
+        "ko": "교내 보건·건강보험"
       },
       "items": [
         {
@@ -1154,23 +1154,8 @@ window.GUIDE_DATA = {
             "en": "Building 63, 3rd floor. Check eligibility, hours and reservations on the website.",
             "ko": "63동 3층. 이용 대상·진료시간·예약은 홈페이지에서 확인하세요."
           },
+          "tel": "02-880-5338",
           "url": "https://health4u.snu.ac.kr/en/index.do",
-          "linkLabel": {
-            "en": "Website",
-            "ko": "웹사이트"
-          },
-          "tel": "02-880-5338"
-        },
-        {
-          "label": {
-            "en": "H+ Yangji Hospital",
-            "ko": "에이치플러스 양지병원"
-          },
-          "detail": {
-            "en": "General hospital with a 24-hour emergency room. Foreigner call centre (English): 070-4665-9519.",
-            "ko": "24시간 응급실 운영 종합병원. 외국인 콜센터(영어) 070-4665-9519."
-          },
-          "url": "https://www.newyjh.com/main/index.htm",
           "linkLabel": {
             "en": "Website",
             "ko": "웹사이트"
@@ -1178,23 +1163,12 @@ window.GUIDE_DATA = {
         },
         {
           "label": {
-            "en": "Seoul Sarang Hospital",
-            "ko": "사랑의병원"
-          },
-          "detail": {
-            "en": "Near Nakseongdae. Night and weekend emergency care.",
-            "ko": "낙성대 인근. 야간·주말 응급진료."
-          },
-          "tel": "02-880-0119"
-        },
-        {
-          "label": {
             "en": "Gwanak-gu Public Health Center",
             "ko": "관악구 보건소"
           },
           "detail": {
-            "en": "Vaccinations, basic check-ups and health counselling.",
-            "ko": "예방접종, 기본 건강검진, 건강상담."
+            "en": "Vaccinations, basic check-ups and health counselling. Weekdays 09:00–18:00.",
+            "ko": "예방접종, 기본 건강검진, 건강상담. 평일 09:00–18:00."
           },
           "tel": "02-879-7131"
         },
@@ -1212,17 +1186,272 @@ window.GUIDE_DATA = {
             "en": "NHIS for foreign residents",
             "ko": "외국인 안내"
           }
+        },
+        {
+          "label": {
+            "en": "Tips for any clinic visit",
+            "ko": "병원 방문 팁"
+          },
+          "detail": {
+            "en": "Bring your passport or Residence Card. Payment is usually due right after treatment; ask for a receipt if you claim private insurance.",
+            "ko": "여권 또는 외국인등록증을 지참하세요. 진료비는 보통 진료 직후 결제하며, 사보험 청구용 영수증을 요청할 수 있습니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hospitals",
+      "icon": "building",
+      "title": {
+        "en": "Hospitals",
+        "ko": "병원"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "Seoul National University Hospital",
+            "ko": "서울대학교병원"
+          },
+          "detail": {
+            "en": "Jongno (Line 4 Hyehwa Stn, Exit 3). International Healthcare Center: English support, weekdays; email ihc@snuh.org. 24-hour emergency room.",
+            "ko": "종로구(4호선 혜화역 3번 출구). 국제진료센터 영어 지원(평일), 이메일 ihc@snuh.org. 24시간 응급실."
+          },
+          "tel": "02-2072-0505",
+          "url": "https://www.snuh.org/english",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "SMG-SNU Boramae Medical Center",
+            "ko": "서울특별시보라매병원"
+          },
+          "detail": {
+            "en": "Sillim Line, Boramae Medical Center Stn, Exit 1. 24-hour emergency room. Appointments also via 1577-0075.",
+            "ko": "신림선 보라매병원역 1번 출구. 24시간 응급실. 예약 1577-0075도 가능."
+          },
+          "tel": "02-870-2177",
+          "url": "https://en.brmh.org/",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "H+ Yangji Hospital",
+            "ko": "에이치플러스 양지병원"
+          },
+          "detail": {
+            "en": "24-hour emergency room. Foreigner call centre (English): 070-4665-9519.",
+            "ko": "24시간 응급실. 외국인 콜센터(영어) 070-4665-9519."
+          },
+          "url": "https://www.newyjh.com/main/index.htm",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "Seoul Sarang Hospital",
+            "ko": "사랑의병원"
+          },
+          "detail": {
+            "en": "Near Nakseongdae. Night and weekend emergency care.",
+            "ko": "낙성대 인근. 야간·주말 응급진료."
+          },
+          "tel": "02-880-0119"
+        }
+      ]
+    },
+    {
+      "id": "dining",
+      "icon": "pin",
+      "title": {
+        "en": "Cafeterias & cafés",
+        "ko": "식당·카페"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "Daily menus",
+            "ko": "오늘의 식단"
+          },
+          "detail": {
+            "en": "SnuMenu marks vegetarian dishes with #. The SNU Co-op menu is available in English.",
+            "ko": "스누메뉴는 채식 메뉴를 #로 표시합니다. 생활협동조합 메뉴는 영어로도 볼 수 있습니다."
+          },
+          "url": "https://snumenu.gerosyab.net/en",
+          "linkLabel": {
+            "en": "SnuMenu",
+            "ko": "스누메뉴"
+          }
+        },
+        {
+          "label": {
+            "en": "SNU Co-op menu",
+            "ko": "생활협동조합 식단"
+          },
+          "detail": {
+            "en": "",
+            "ko": ""
+          },
+          "url": "https://snuco.snu.ac.kr/en/foodmenu/",
+          "linkLabel": {
+            "en": "Co-op menu (English)",
+            "ko": "생협 식단(영문)"
+          }
+        },
+        {
+          "label": {
+            "en": "Student Union Cafeteria (Bldg. 63)",
+            "ko": "학생회관 식당(63동)"
+          },
+          "detail": {
+            "en": "Weekdays 08:00–10:00, 11:00–14:30, 17:00–19:00; Sat 11:30–14:00, 17:00–19:00.",
+            "ko": "평일 08:00–10:00, 11:00–14:30, 17:00–19:00 / 토 11:30–14:00, 17:00–19:00."
+          },
+          "tel": "02-880-5543"
+        },
+        {
+          "label": {
+            "en": "Jahayeon Cafeteria (Bldg. 109)",
+            "ko": "자하연 식당(109동)"
+          },
+          "detail": {
+            "en": "Weekdays 11:30–14:00, 17:00–18:30.",
+            "ko": "평일 11:30–14:00, 17:00–18:30."
+          },
+          "tel": "02-880-7888"
+        },
+        {
+          "label": {
+            "en": "College of Natural Sciences",
+            "ko": "자연과학대학"
+          },
+          "detail": {
+            "en": "All on the 2nd floor of the same building: 9ounce Burger (daily 10:00–20:00), A Twosome Place (08:00–22:00) and a 24-hour 7-Eleven (card entry at night).",
+            "ko": "같은 건물 2층: 9온스버거(매일 10:00–20:00), 투썸플레이스(08:00–22:00), 24시간 세븐일레븐(야간 카드 출입)."
+          },
+          "url": "https://brassy-icicle-96e.notion.site/Natural-Science-1c8397f3651d8030a279ddbc9105d8d8",
+          "linkLabel": {
+            "en": "Details",
+            "ko": "자세히"
+          }
+        },
+        {
+          "label": {
+            "en": "Other colleges",
+            "ko": "다른 단과대"
+          },
+          "detail": {
+            "en": "Engineering, Agriculture (Cafeteria No. 3, Food Court Bldg. 75-1), Business, Social Sciences, dormitories and Hoam Faculty House.",
+            "ko": "공대, 농생대(제3식당, 75-1동 푸드코트), 경영대, 사회대, 기숙사, 호암교수회관 등."
+          },
+          "url": "https://brassy-icicle-96e.notion.site/",
+          "linkLabel": {
+            "en": "Guidebook: View by Department",
+            "ko": "가이드북: 단과대별 보기"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shuttle",
+      "icon": "arrow",
+      "title": {
+        "en": "Shuttle buses",
+        "ko": "셔틀버스"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "Campus loop (clockwise)",
+            "ko": "교내 순환(시계방향)"
+          },
+          "detail": {
+            "en": "Weekdays. Semester: 08:00–19:00 every 5 min, 19:00–21:00 every 20 min. Breaks: 08:00–18:00 every 10 min. Main Gate → Law → Natural Sciences → Agriculture → Engineering → … → Business → Main Gate.",
+            "ko": "평일 운행. 학기 중 08:00–19:00 5분, 19:00–21:00 20분 간격. 방학 08:00–18:00 10분 간격. 정문 → 법대 → 자연대 → 농생대 → 공대 → … → 경영대 → 정문."
+          },
+          "url": "https://brassy-icicle-96e.notion.site/On-Campus-1c8397f3651d80f39505fe181a18ba3f",
+          "linkLabel": {
+            "en": "Route map",
+            "ko": "노선도"
+          }
+        },
+        {
+          "label": {
+            "en": "SNU Station ↔ Administration Bldg.",
+            "ko": "서울대입구역 ↔ 행정관"
+          },
+          "detail": {
+            "en": "Semester: 07:00–19:00, every 3–15 min (breaks: from 08:00). Board on the Exit 3 side; drop-off on the Exit 2 side.",
+            "ko": "학기 중 07:00–19:00, 3~15분 간격(방학은 08:00부터). 승차는 3번 출구 쪽, 하차는 2번 출구 쪽."
+          },
+          "url": "https://brassy-icicle-96e.notion.site/Off-Campus-1c8397f3651d805ebc02f020ba445349",
+          "linkLabel": {
+            "en": "All off-campus shuttles",
+            "ko": "교외 셔틀 전체"
+          }
+        },
+        {
+          "label": {
+            "en": "Nakseongdae → Engineering (Bldg. 301)",
+            "ko": "낙성대 → 공대(301동)"
+          },
+          "detail": {
+            "en": "Semester only, 08:30–11:00 every 5 min, via the dormitory entrance.",
+            "ko": "학기 중에만 08:30–11:00, 5분 간격. 기숙사 입구 경유."
+          }
+        },
+        {
+          "label": {
+            "en": "Daehak-dong (Nokdu) and Sadang Station",
+            "ko": "대학동(녹두)·사당역"
+          },
+          "detail": {
+            "en": "Nokdu ↔ Administration Bldg. 07:00–19:00 during the semester. Sadang (Exit 4 side) → campus 08:00–10:00, one way.",
+            "ko": "녹두 ↔ 행정관 학기 중 07:00–19:00. 사당역(4번 출구 쪽) → 교내 08:00–10:00 편도."
+          }
+        },
+        {
+          "label": {
+            "en": "Night and midnight shuttles",
+            "ko": "야간·심야 셔틀"
+          },
+          "detail": {
+            "en": "From the Administration Bldg. car park to Nokdu / SNU Station at 21:10, 21:40, 22:10, 22:40, 23:10. Midnight shuttle to SNU Station 24:00–02:00 every 30 min (semester only).",
+            "ko": "행정관 주차장에서 녹두·서울대입구역 방면 21:10, 21:40, 22:10, 22:40, 23:10. 심야 셔틀(서울대입구역) 24:00–02:00, 30분 간격(학기 중)."
+          }
         }
       ]
     },
     {
       "id": "transport",
-      "icon": "pin",
+      "icon": "globe",
       "title": {
         "en": "Getting around",
         "ko": "교통"
       },
       "items": [
+        {
+          "label": {
+            "en": "Campus map",
+            "ko": "캠퍼스 지도"
+          },
+          "detail": {
+            "en": "Maps of the Gwanak, Yeongeon, Siheung and Pyeongchang campuses.",
+            "ko": "관악·연건·시흥·평창 캠퍼스 지도."
+          },
+          "url": "https://brassy-icicle-96e.notion.site/Campus-Map-1c8397f3651d81c9a70ac287a037c33e",
+          "linkLabel": {
+            "en": "Campus map",
+            "ko": "캠퍼스 지도"
+          }
+        },
         {
           "label": {
             "en": "Map apps",
@@ -1256,8 +1485,65 @@ window.GUIDE_DATA = {
       ]
     },
     {
+      "id": "sports",
+      "icon": "check",
+      "title": {
+        "en": "Sports & fitness",
+        "ko": "체육시설"
+      },
+      "items": [
+        {
+          "label": {
+            "en": "POSCO Sports Center (Bldg. 71-2)",
+            "ko": "포스코스포츠센터(71-2동)"
+          },
+          "detail": {
+            "en": "Swimming, fitness, golf, squash and group classes. Weekdays 06:00–22:30, Sat 10:00–17:00, closed Sun/holidays. Register at the 1F desk (weekdays 09:00–18:00) with a staff ID or certificate of employment plus photo ID.",
+            "ko": "수영·헬스·골프·스쿼시·GX. 평일 06:00–22:30, 토 10:00–17:00, 일·공휴일 휴무. 1층 안내데스크(평일 09:00–18:00)에서 교직원증 또는 재직증명서와 신분증으로 등록."
+          },
+          "tel": "02-880-6980",
+          "url": "https://spolex.snu.ac.kr/",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "Natural Sciences fitness room",
+            "ko": "자연대 체련장"
+          },
+          "detail": {
+            "en": "Weekdays 07:30–22:30, Sat 12:00–18:00. KRW 60,000 per month.",
+            "ko": "평일 07:30–22:30, 토 12:00–18:00. 월 60,000원."
+          },
+          "tel": "02-880-1342",
+          "url": "https://spolex.snu.ac.kr/outside/outside02.php",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
+          }
+        },
+        {
+          "label": {
+            "en": "Courts and fields",
+            "ko": "운동장·코트"
+          },
+          "detail": {
+            "en": "Tennis courts, main stadium and gyms; reserve through the SNU Sports Promotion Center.",
+            "ko": "테니스장·종합운동장·체육관은 스포츠진흥원에서 예약합니다."
+          },
+          "url": "https://brassy-icicle-96e.notion.site/Campus-Facilities-1c8397f3651d80079322d8d42b4d5712",
+          "linkLabel": {
+            "en": "Facilities list",
+            "ko": "시설 목록"
+          }
+        }
+      ]
+    },
+    {
       "id": "living",
-      "icon": "building",
+      "icon": "home",
       "title": {
         "en": "Housing & daily life",
         "ko": "주거·생활"
@@ -1301,6 +1587,21 @@ window.GUIDE_DATA = {
           "detail": {
             "en": "Banks require the physical Residence Card; the Certificate of Foreign Resident Registration is not accepted.",
             "ko": "계좌 개설에는 외국인등록증 실물이 필요하며, 외국인등록사실증명으로는 대체되지 않습니다."
+          }
+        },
+        {
+          "label": {
+            "en": "Living in Korea (OGA)",
+            "ko": "한국 생활 안내(OGA)"
+          },
+          "detail": {
+            "en": "",
+            "ko": ""
+          },
+          "url": "https://oia.snu.ac.kr/index.php/managing-budget",
+          "linkLabel": {
+            "en": "Website",
+            "ko": "웹사이트"
           }
         }
       ]
@@ -1368,46 +1669,6 @@ window.GUIDE_DATA = {
             "ko": "자료 검색, 대출, 좌석 예약."
           },
           "url": "https://snu-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=82SNU&lang=en_US",
-          "linkLabel": {
-            "en": "Website",
-            "ko": "웹사이트"
-          }
-        }
-      ]
-    },
-    {
-      "id": "source",
-      "icon": "globe",
-      "title": {
-        "en": "More from SNU OGA",
-        "ko": "서울대 국제협력본부(OGA) 안내"
-      },
-      "items": [
-        {
-          "label": {
-            "en": "SNU OGA Guidebook (2026-1)",
-            "ko": "SNU OGA 가이드북 (2026-1)"
-          },
-          "detail": {
-            "en": "Campus map, cafeterias, shuttle, hospitals and more. Written mainly for international students; check with each office for details.",
-            "ko": "캠퍼스 지도, 식당, 셔틀, 병원 등. 유학생 중심 자료이므로 세부 사항은 해당 기관에 확인하세요."
-          },
-          "url": "https://brassy-icicle-96e.notion.site/",
-          "linkLabel": {
-            "en": "Open guidebook",
-            "ko": "가이드북 열기"
-          }
-        },
-        {
-          "label": {
-            "en": "Living in Korea (OGA)",
-            "ko": "한국 생활 안내(OGA)"
-          },
-          "detail": {
-            "en": "",
-            "ko": ""
-          },
-          "url": "https://oia.snu.ac.kr/index.php/managing-budget",
           "linkLabel": {
             "en": "Website",
             "ko": "웹사이트"
